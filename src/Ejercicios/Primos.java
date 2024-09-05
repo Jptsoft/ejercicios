@@ -10,14 +10,12 @@ public class Primos {
     */
 
     public static void main(String[] args) {
-        int a = 29;
-        int divisores;
+        int a = 8;
 
-        for (int i = 1; i <a; i++) {
+        for (int i = 2; i <a; i++) {
             if(a%i==0){
-                System.out.println(i);
-                System.out.println("es impar");
-                System.out.println(a%i);
+                System.out.println("no es primo");
+                System.out.println("es divisible por" + i);
             }
         }
     }
