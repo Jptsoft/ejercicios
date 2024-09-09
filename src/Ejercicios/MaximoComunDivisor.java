@@ -10,8 +10,8 @@ public class MaximoComunDivisor {
      */
 
     public static void main(String[] args) {
-int a =48;
-int b = 18;
+        int a =48;
+        int b = 18;
 
         while (b != 0) {
             int temp = b;
@@ -19,7 +19,5 @@ int b = 18;
             a = temp;
             System.out.print("Calculando: a = " + a + ", b = " + b);
         }
-
-
     }
 }
